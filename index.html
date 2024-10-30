@@ -19,7 +19,7 @@ Elements should stack vertically when the window is small -->
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="index.html">Hot Spot</a>
           <!-- HAMBURGER BUTTON -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,6 +44,154 @@ Elements should stack vertically when the window is small -->
 
         </div>
     </nav>
+
+    <!-- HERO -->
+      <div>
+        <img class ="img-fluid" src="Images/HotSpots.jpg" alt="Hot Spots Globally">
+      </div>
+
+    <!-- WELCOME -->
+      <h1 class="text-center">Welcome, you must know the hot spots!</h1>
+      <p class="text-center fs-5">Understand your surroundings and admire.</p>
+
+      <div>
+        <div class="m-3 p-3">
+          <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sit aut voluptates natus, inventore labore iure ipsum assumenda impedit illum reiciendis maiores accusantium eos unde officia voluptatibus nemo dolorum repellendus.</p>
+        </div>
+      </div>
+    <!-- CARDS -->
+    <div class="container">
+      <div class="row row-cols-1 row-cols-lg-3 g-3 m-3 pt-5">
+        <div class="col-sm">
+          <div class="card h-100 shadow-lg">
+            <img src="Images/Travels.jpg" class="card-img-top" alt="How to travel around.">
+            <div class="card-body">
+              <h5 class="card-title">Travels</h5>
+              <p class="card-text fs-5">Knowing where to go, how to go, and best when to go.</p>
+            </div>
+          </div> 
+
+        </div>
+
+        <div class="col-sm">
+          <div class="card h-100 shadow-lg">
+            <img src="Images/Rest.jpg" class="card-img-top" alt="Can't call it a vacation without rest.">
+            <div class="card-body">
+              <h5 class="card-title">Rest</h5>
+              <p class="card-text fs-5">While making the most of the trip, it is also important to keep track of resting.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm">
+          <div class="card h-100 shadow-lg">
+            <img src="Images/Foods.jpg" class="card-img-top" alt="Try new foods.">
+            <div class="card-body">
+              <h5 class="card-title">Foods</h5>
+              <p class="card-text fs-5">An open mind has the biggest appetite. Food is the best!</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- PIC DIV -->
+    <div class="container mt-5 mb-5 pt-5 pb-5 text-center">
+      <div class="m-3 p-5">
+        <div class="row gx-0 g-0">
+          <div class="col-sm-12 pb-3"><h2>Off to the next!</h2></div>
+        </div>
+        <div class="row gx-0 g-0">
+          <div class="col-sm-9">
+            <img class="img-fluid" src="Images/transportation.jpg" alt="Transportation to go around" width="400" height="200">
+          </div>
+          <div class="col-sm-4">
+            <img class="img-fluid" src="Images/respect.jpg" alt="Every culture is different so please be respectful" width="400" height="200">
+          </div>
+        </div>
+        <div class="row gx-0 g-0">
+          <div class="col-sm-4">
+            <img class="img-fluid" src="Images/ALERT.jpg" alt="Be safe and alert" width="400" height="200">
+          </div>
+          <div class="col-sm-9">
+            <img class="img-fluid" src="Images/Global.jpg" alt="Know where you are and have GPS" width="400" height="200">
+          </div>
+        </div> 
+      </div>
+    </div>
+
+    <hr class="border border-secondary border-1 opacity-50">
+
+    <!-- IMG VIEW ALL LOCATION -->
+    <div class="container mt-5 pt-5">
+      <div class="card text-bg-light">
+        <a href="destinations.html">
+          <img src="Images/World.jpg" class="img-fluid" alt="Check out the best hotspots">
+          <div class="card-img-overlay">
+            <h3 class="card-title">View all locations</h3>
+            <p class="card-text fs-5">Explore the world and expand the mind.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+   
+    <!-- CONTACT FORM -->
+    <h1 class="text-center mt-5 pt-5">Contact us</h1>
+    <h2 class="text-center mb-4">To get more information about other popular spots!</h2> 
+
+    <div class="container">
+      <form class="row g-3 mb-5 ms-3 me-3 pt-5">
+
+        <div class="col-md-6">
+          <label for="firstname" class="form-label">First Name</label>
+          <input type="text" class="form-control" aria-label="First name" id="firstname">
+        </div>
+        <div class="col-md-6">
+          <label for="lastname" class="form-label">Last Name</label>
+          <input type="text" class="form-control" aria-label="Last name" id="lastname">
+        </div>
+
+        <div class="col-12">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="pt-5 pb-5">
+      <div class="text-center p-2">
+        <h5>Hotspots that will make you drop! Copyrighted 2024</h5>
+      </div>
+    </footer>
+
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
